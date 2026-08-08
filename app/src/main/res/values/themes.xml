@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MyApplication" parent="android:Theme.DeviceDefault.NoActionBar" />
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background to #08110D -->
+        <item name="windowSplashScreenBackground">#08110D</item>
+        
+        <!-- Use the app logo as the splash screen icon -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/group_93</item>
+        
+        <!-- Set the post-splash theme -->
+        <item name="postSplashScreenTheme">@style/Theme.MyApplication</item>
+    </style>
+</resources>

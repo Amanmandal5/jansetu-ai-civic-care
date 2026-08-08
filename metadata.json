@@ -1,0 +1,8 @@
+{
+  "name": "Remix Jan Setu AI",
+  "description": "An AI-powered civic issue reporting platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
